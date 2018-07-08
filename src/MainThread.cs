@@ -53,7 +53,7 @@ namespace SimpleExternalCheatCSGO
                 case "saintwar5":
                     return "saintware"; // end of loop
             }
-            return "fuck off nigga"; // it should never get to this part but u get an error if this aint here
+            return "fuck off nigga"; // it should never get to this part but u get an error if this aint here (unless current != saintware)
         }
 
         public static IClientEntityList g_EntityList;
@@ -410,6 +410,20 @@ namespace SimpleExternalCheatCSGO
                                 b_do_Aimbot = true;
                             }
                         }
+                        #endregion
+
+                        #region Triggerbot
+
+                        foreach (var pPointer in g_EntityList.pPlayerList)
+                        {
+                            CBasePlayer pEntity = new CBasePlayer(pPointer);
+                            if (pEntity.GetTeamNum() != pLocal.GetTeamNum())
+                                if (Config.bTriggerbotEnabled)
+                                    if (MathUtil.FovToPlayer(localPlayerEyePosition, viewangles, pEntity, 0) < 1)
+                                        if (pEntity.IsSpottedByMask(pLocal))
+                                            g_pEngineClient.OneTickAttack();
+                        }
+
                         #endregion
 
                         #region RecoilControlSystem

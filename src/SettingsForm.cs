@@ -136,7 +136,7 @@ namespace SimpleExternalCSGOCheat
 
         private void checkBox10_CheckedChanged(object sender, EventArgs e)
         {
-            Config.bClanTagChangerEnabled = true;
+            Config.bClanTagChangerEnabled = checkBox10.Checked; //oh lol
         }
 
         private void checkBox9_CheckedChanged(object sender, EventArgs e)
@@ -270,6 +270,16 @@ namespace SimpleExternalCSGOCheat
         private void checkBox16_CheckedChanged(object sender, EventArgs e)
         {
             Config.bShowRanks = checkBox16.Checked;
+        }
+
+        private void checkBox17_CheckedChanged(object sender, EventArgs e)
+        {
+            Config.bTriggerbotEnabled = checkBox17.Checked;
+        }
+
+        private void checkBox18_CheckedChanged(object sender, EventArgs e)
+        {
+            Config.bTriggerbotCheckWall = checkBox18.Checked;
         }
     }
 }

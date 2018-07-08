@@ -121,6 +121,13 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAADdJREFUWEft
+        yjEOACAMw8D+/9PAHq+pGHySN48kSZKkn5zlAk3NAk3NAk3NAk3NAk3NAk3N9MxcIbTDPbRVWukAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAyAAAAMMCAYAAACrHsMlAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH
@@ -9774,13 +9781,6 @@
         C0hMKwgFuM0RCqKVUODtEgrYv62E3r9L6PO7hNZdSwhtp5iYJugxPCYmpm0EF8bExLQe/sQCEvMNEAqU
         W0soSG8rISFQQo9vK6HP0RZC6zQm5iuhx/CYmJi2EVwYExMTE/PtJxQYOYSC8fZK6PPFxPzHCH0fY2Ji
         Wk5wYUxMTExMTExMTExMzNePkf8HMc2orX9dUMsAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAA3SURBVFhH7coxDgAgDMPA/v/TwB6vqRh8kjePJEmSpJ+c5QJNzQJNzQJNzQJNzQJNzQJNzfTM
-        XCG0wz20VVrpAAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

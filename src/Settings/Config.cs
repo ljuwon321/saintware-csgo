@@ -45,7 +45,8 @@ namespace SimpleExternalCheatCSGO.Settings
     public static class Config
     {
         public static bool bBhopEnabled = false;
-
+        public static bool bTriggerbotEnabled = false;
+        public static bool bTriggerbotCheckWall = false;
 
 
         #region GlobalsConfig

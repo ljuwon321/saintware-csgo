@@ -41,7 +41,7 @@ namespace SimpleExternalCheatCSGO
 
             cheat_Watch.Start();
 
-            Console.WriteLine("[Version 1.0] - Build Time " + new FileInfo(Application.ExecutablePath).LastWriteTime.ToString("yyyy-MM-dd - HH:mm:ss"));
+            Console.WriteLine("[Version 1.2] - Build Time " + new FileInfo(Application.ExecutablePath).LastWriteTime.ToString("yyyy-MM-dd - HH:mm:ss"));
 
             Console.WriteLine("Loading CS:GO process...");
 
