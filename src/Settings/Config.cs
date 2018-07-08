@@ -80,7 +80,7 @@ namespace SimpleExternalCheatCSGO.Settings
         #endregion
 
         #region ClantagChanger
-        public static bool bClanTagChangerEnabled = true;
+        public static bool bClanTagChangerEnabled = false;
         public static int iClanTagChanger = 0;
         public static string szClanTag = "saintware";
         public static int iClantTagDelay = 250;
